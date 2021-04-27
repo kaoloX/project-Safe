@@ -8,7 +8,17 @@ EndPoint *GET* responsável pela Busca de Itens pertencentes a uma determinada c
 
 GET - /v1/safe/compras
 
-Parametro de entrada:
+-------------
+
+Postman  Functions:
+
+Safe / Buscar Item
+
+Safe / Buscar Todas as Compras.
+
+-------------
+
+Parametro de entrada: 
 
     Valor        Descrição
  | IdCompra  |   Id da compra efetuada em determinado estabelecimento.
@@ -24,7 +34,19 @@ Parametro de entrada:
     }
  
  
+ -----------------------------------------
+ 
  EndPoint *POST* responsável por adicionar uma nova compra em um estabelecimento e demonstrar os dados da mesma.
+ 
+ POST - v1/safe/compras.
+ 
+ ------------------------
+ 
+ Postman
+
+Safe / Adicionando nova compra.
+ 
+ ------------------------
  
         Valor          Descrição
    |numeroDoCartao        | Número do cartão utilizado na compra
